@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
             val myUserId = myUserId.text.toString()
             if (myUserId.isNotEmpty()){
                 val intent = Intent(this@LoginActivity, MainActivity::class.java)
-                intent.putExtra("userId", myUserId)
+                intent.putExtra("userID", myUserId)
                 startActivity(intent)
 
                 setupZegoUIKit(myUserId)

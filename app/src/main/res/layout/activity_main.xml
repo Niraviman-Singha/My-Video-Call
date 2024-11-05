@@ -23,7 +23,7 @@
     </TextView>
 
     <EditText
-        android:id="@+id/targetUserId"
+        android:id="@+id/targetUserIdET"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginHorizontal="25dp"
